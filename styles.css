@@ -206,3 +206,42 @@ section{ padding:88px 0; }
 .c-udaan .proj-name{ color:var(--dusk-rose); }
 .c-prakriti .proj-name{ color:var(--banyan-green); }
 .c-vikas .proj-name{ color:var(--vermilion); }
+
+/*IMPACT*/
+.impact{ background:var(--ink); color:var(--text-on-ink); }
+.impact .section-head p{ color:var(--text-muted); }
+.impact .section-head .eyebrow{ color:var(--marigold); }
+.impact .section-head h2{ color:#fff; }
+.stat-grid{
+    display:grid; grid-template-columns:repeat(4, 1fr); gap:20px;
+}
+.stat-card{
+    background:rgba(239,233,216,0.05); border:1px solid rgba(239,233,216,0.12);
+    border-radius:var(--radius); padding:26px 22px;
+}
+.stat-num{
+    font-family:'IBM Plex Mono', monospace; font-size:2.1rem; font-weight:600; color:var(--marigold);
+}
+.stat-label{ margin-top:8px; font-size:0.86rem; color:var(--text-muted); }
+
+.purpose-strip{
+    margin-top:56px; padding-top:48px; border-top:1px solid rgba(239,233,216,0.14);
+    display:grid; grid-template-columns:1fr 1fr; gap:40px;
+}
+.purpose-strip h3{ font-size:1.2rem; color:#fff; margin-bottom:12px; }
+.purpose-strip p{ color:var(--text-muted); font-size:0.95rem; }
+
+/*CTA*/
+.cta{ background:var(--paper); }
+.cta-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:22px; }
+.cta-card{
+    border-radius:var(--radius); padding:32px 28px; color:#fff; position:relative; overflow:hidden;
+}
+.cta-card h3{ font-size:1.25rem; color:#fff; }
+.cta-card p{ margin-top:10px; font-size:0.92rem; color:rgba(255,255,255,0.85); min-height:64px; }
+.cta-card .btn{ margin-top:18px; width:100%; justify-content:center; }
+.cta-volunteer{ background:linear-gradient(145deg, var(--sky), #2E5A7C); }
+.cta-donate{ background:linear-gradient(145deg, var(--vermilion), #8f331f); }
+.cta-partner{ background:linear-gradient(145deg, var(--banyan-green), #294a35); }
+.cta-card .btn{ background:rgba(255,255,255,0.16); color:#fff; border:1px solid rgba(255,255,255,0.4); }
+.cta-card .btn:hover{ background:rgba(255,255,255,0.28); }
