@@ -14,6 +14,13 @@
 --max:1180px;
 }
 
+*{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+@media (prefers-reduced-motion: reduce){
+html{ scroll-behavior:auto; }
+*{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important; }
+}
+
 body{
     margin:0;
     background:var(--paper);
@@ -245,7 +252,6 @@ section{ padding:88px 0; }
 .cta-partner{ background:linear-gradient(145deg, var(--banyan-green), #294a35); }
 .cta-card .btn{ background:rgba(255,255,255,0.16); color:#fff; border:1px solid rgba(255,255,255,0.4); }
 .cta-card .btn:hover{ background:rgba(255,255,255,0.28); }
-
 
 /*FOOTER*/
 footer{ background:var(--ink); color:var(--text-muted); padding:52px 0 30px; }
